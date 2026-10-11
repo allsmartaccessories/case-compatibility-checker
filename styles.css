@@ -129,3 +129,43 @@ button:hover {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
+.seo-content {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+}
+
+.seo-content h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+.seo-content h3 {
+  font-size: 0.95rem;
+  margin: 1.25rem 0 0.35rem;
+}
+
+.seo-content > p {
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.model-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.model-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.model-list a:hover {
+  text-decoration: underline;
+}
