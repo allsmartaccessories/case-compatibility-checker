@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Compatibility Checker — All Smart Accessories</title>
+  <meta name="description" content="Find which phone cases and screen protectors fit your smartphone. Covers 67 iPhone, Galaxy, Pixel, OnePlus and more models.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://allsmartaccessories.com/tools/case-checker/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Case Compatibility Checker</h1>
+    <p class="lede">Pick your phone to see which case types and screen protectors fit it.</p>
+
+    <form id="finder" autocomplete="off">
+      <label for="brand">Brand</label>
+      <select id="brand"></select>
+
+      <label for="model">Model</label>
+      <select id="model"></select>
+
+      <button type="submit">Check compatibility</button>
+    </form>
+
+    <section id="result" hidden aria-live="polite"></section>
+
+    <p class="foot">
+      <a href="https://allsmartaccessories.com/">More accessory guides at All Smart Accessories</a>
+    </p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
