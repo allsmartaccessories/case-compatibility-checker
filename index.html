@@ -30,21 +30,38 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="https://allsmartaccessories.com/">All Smart <span>Accessories</span></a>
+      <nav class="site-nav">
+        <a href="https://allsmartaccessories.com/case/">Case Guide</a>
+        <a href="https://allsmartaccessories.com/screen-protector/">Screen Protector</a>
+        <a href="https://allsmartaccessories.com/tech-news/">Tech News</a>
+        <a href="https://allsmartaccessories.com/about-us/">About Us</a>
+        <a href="https://allsmartaccessories.com/contact-us/">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
   <main class="wrap">
-    <h1>Case Compatibility Checker</h1>
-    <p class="lede">Pick your phone to see which case types and screen protectors fit it.</p>
+    <div class="page-head">
+      <h1>Case Compatibility Checker</h1>
+      <p class="lede">Pick your phone to see which case types and screen protectors fit it.</p>
+    </div>
 
-    <form id="finder" autocomplete="off">
-      <label for="brand">Brand</label>
-      <select id="brand"></select>
+    <div class="card">
+      <form id="finder" autocomplete="off">
+        <label for="brand">Brand</label>
+        <select id="brand"></select>
 
-      <label for="model">Model</label>
-      <select id="model"></select>
+        <label for="model">Model</label>
+        <select id="model"></select>
 
-      <button type="submit">Check compatibility</button>
-    </form>
+        <button type="submit">Check compatibility</button>
+      </form>
 
-    <section id="result" hidden aria-live="polite"></section>
+      <section id="result" hidden aria-live="polite"></section>
+    </div>
 
     <section class="seo-content">
       <h2>Phone case compatibility by model</h2>
@@ -150,11 +167,13 @@
         <li><a href="https://allsmartaccessories.com/top-7-zte-axon-7-cases/">ZTE Axon 7 cases</a></li>
       </ul>
     </section>
-
-    <p class="foot">
-      <a href="https://allsmartaccessories.com/">More accessory guides at All Smart Accessories</a>
-    </p>
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      Copyright &copy; 2026 All Smart Accessories &mdash;
+      <a href="https://allsmartaccessories.com/">Back to the blog</a>
+    </div>
+  </footer>
   <script src="app.js"></script>
 </body>
 </html>
