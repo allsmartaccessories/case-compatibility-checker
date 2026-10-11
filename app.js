@@ -1,7 +1,8 @@
 "use strict";
 
 /* CaseFinder — static, dependency-free compatibility lookup.
-   Security: no innerHTML anywhere; all data is rendered via textContent. */
+   Security: rendering uses only textContent/createElement — never raw
+   HTML sinks — so no value from the dataset can be interpreted as markup. */
 
 const brandSel = document.getElementById("brand");
 const modelSel = document.getElementById("model");
